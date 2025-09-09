@@ -12,6 +12,7 @@ public class SalesItem {
     private int amount;
     private boolean active;
     private LocalDateTime createdAt;
+    private FinancialTransaction financialTransactionId; // For future use
 
     public SalesItem() {
         this.active = true;
