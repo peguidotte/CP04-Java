@@ -34,9 +34,8 @@ public class FinancialTransaction {
     private PaymentMethod paymentMethod;
     private TransactionCategory category;
 
-    public FinancialTransaction(long id, TransactionType type, double value, LocalDateTime date,
+    public FinancialTransaction(TransactionType type, double value, LocalDateTime date,
             PaymentMethod paymentMethod, TransactionCategory category) {
-        this.id = id;
         this.type = type;
         this.value = value;
         this.date = date;
@@ -44,9 +43,8 @@ public class FinancialTransaction {
         this.category = category;
     }
 
-    public FinancialTransaction(long id, TransactionType type, double value, String description, LocalDateTime date,
+    public FinancialTransaction(TransactionType type, double value, String description, LocalDateTime date,
             PaymentMethod paymentMethod, TransactionCategory category) {
-        this.id = id;
         this.type = type;
         this.value = value;
         this.description = description;
