@@ -88,6 +88,8 @@ public class SalesItem {
     public void setActive(boolean active) { this.active = active; }
     public LocalDateTime getCreatedAt() { return createdAt; }
     public void setCreatedAt(LocalDateTime createdAt) { this.createdAt = createdAt; }
+    public FinancialTransaction getFinancialTransactionId() { return financialTransactionId; }
+    public void setFinancialTransactionId(FinancialTransaction financialTransactionId) { this.financialTransactionId = financialTransactionId; }
 
     @Override
     public boolean equals(Object o) {

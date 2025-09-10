@@ -15,7 +15,7 @@ public class FinancialTransactionDAOimpl implements FinancialTransactionDAO{
 
     private Connection connection;
 
-    public void FinancialTransactionDAOImpl() {
+    public FinancialTransactionDAOimpl() {
         try {
             this.connection = OracleConnectionManager.getInstance().getConnection();
         } catch (SQLException e) {

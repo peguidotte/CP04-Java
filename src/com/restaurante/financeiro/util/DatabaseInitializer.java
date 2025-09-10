@@ -58,4 +58,15 @@ public class DatabaseInitializer {
             e.printStackTrace();
         }
     }
+
+    public void resetTables(Connection connection) {
+        try (Statement stmt = connection.createStatement()) {
+            stmt.execute("TRUNCATE TABLE SALES_ITEM");
+            stmt.execute("TRUNCATE TABLE FINANCIAL_TRANSACTION");
+            System.out.println("Tabelas SALES_ITEM e FINANCIAL_TRANSACTION resetadas.");
+        } catch (SQLException e) {
+            System.err.println("Erro ao resetar as tabelas: " + e.getMessage());
+            e.printStackTrace();
+        }
+    }
 }
