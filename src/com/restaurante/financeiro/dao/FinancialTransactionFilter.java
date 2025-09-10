@@ -1,6 +1,6 @@
-package java.com.restaurante.financeiro.dao;
+package com.restaurante.financeiro.dao;
 
-import java.com.restaurante.financeiro.entities.FinancialTransaction;
+import com.restaurante.financeiro.entities.FinancialTransaction;
 import java.time.LocalDateTime;
 
 public class FinancialTransactionFilter {

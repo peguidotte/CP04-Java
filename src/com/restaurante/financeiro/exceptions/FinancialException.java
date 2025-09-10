@@ -1,4 +1,4 @@
-package java.com.restaurante.financeiro.exceptions;
+package com.restaurante.financeiro.exceptions;
 
 public class FinancialException extends Exception{
     public FinancialException(String message) {

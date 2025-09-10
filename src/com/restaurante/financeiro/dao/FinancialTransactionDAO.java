@@ -1,8 +1,7 @@
-package java.com.restaurante.financeiro.dao;
+package com.restaurante.financeiro.dao;
 
-import java.com.restaurante.financeiro.entities.FinancialTransaction;
-import java.com.restaurante.financeiro.exceptions.FinancialException;
-import java.time.LocalDateTime;
+import com.restaurante.financeiro.entities.FinancialTransaction;
+import com.restaurante.financeiro.exceptions.FinancialException;
 import java.util.List;
 
 public interface FinancialTransactionDAO {

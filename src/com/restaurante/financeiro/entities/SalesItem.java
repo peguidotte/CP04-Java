@@ -1,4 +1,4 @@
-package java.com.restaurante.financeiro.entities;
+package com.restaurante.financeiro.entities;
 
 import java.time.LocalDateTime;
 import java.util.Objects;
