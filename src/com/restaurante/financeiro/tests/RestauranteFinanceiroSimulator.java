@@ -93,6 +93,7 @@ public class RestauranteFinanceiroSimulator {
             System.out.println("\n" + CYAN + BOLD + "==== VENDAS POR CATEGORIA ====" + RESET);
             RestauranteFinanceiroService.relatorioVendasPorCategoria(financialDAO); // Mostra vendas por categoria
 
+
         } catch (SQLException | FinancialException e) {
             System.err.println(RED + "Erro na simulação: " + e.getMessage() + RESET);
             e.printStackTrace();
